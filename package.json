@@ -1,0 +1,17 @@
+{
+  "name": "kilt-did-substrate-seminar-demo-01062021",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "demo": "yarn ts-node src/demo.ts"
+  },
+  "dependencies": {
+    "@kiltprotocol/did": "0.21.1-12",
+    "@kiltprotocol/sdk-js": "0.21.1-12",
+    "wait-for-enter": "^1.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  }
+}
