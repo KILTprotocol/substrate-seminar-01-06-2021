@@ -1,7 +1,7 @@
 {
   "name": "kilt-did-substrate-seminar-demo-01062021",
   "version": "1.0.0",
-  "license": "MIT",
+  "license": "BSD-4-Clause",
   "scripts": {
     "demo": "yarn ts-node src/demo.ts"
   },
