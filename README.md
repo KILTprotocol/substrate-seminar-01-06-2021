@@ -13,7 +13,7 @@ At the time of the demo, the code and the SDK in the demo were using a version o
 To download the Docker image and start the node, please [install Docker](https://docs.docker.com/engine/install/) and then run the following:
 
 ```bash
-  docker run -p 50000:50000 --rm --name KILT-blockchain-node kiltprotocol/mashnet-node:f0fbbc8 -p mashnet-node -- --dev --tmp --ws-port 50000
+docker run -p 50000:50000 --rm kiltprotocol/mashnet-node:f0fbbc8 --dev --tmp --ws-port 50000 --ws-external
 ```
 
 The command will pull and start a Docker container containing the right blockchain node version ([f0fbbc86ada7a273a3a6af740afc963bdb8f16ab](https://github.com/KILTprotocol/mashnet-node/commit/f0fbbc86ada7a273a3a6af740afc963bdb8f16ab)) and expose the Websocket port `50000`.
