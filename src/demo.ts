@@ -14,7 +14,7 @@ import * as utils from "./utils"
 * STEP 9: Delete the DID by generating and submitting a DIDDeletionOperation.
 */
 
-const KILT_NODE_URL = "wss://full-nodes.kilt.io:9944/"
+const KILT_NODE_URL = "ws://127.0.0.1:50000"
 
 async function main() {
   let didTxCounter = 1
